@@ -1,0 +1,33 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	
+	.form-container {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+
+		.form-title {
+			text-align: center;
+		}
+
+		.form-label {
+			padding-top: 2px;
+			margin: 0 auto;
+		}
+	
+		.form-input {
+			max-width: 200px;
+			min-width: 200px;
+			margin: 0 auto;
+		}
+	
+		.form-undertekst {
+			color: red;
+			margin: 0 auto;
+		}
+	}	
+}
+
+
+
